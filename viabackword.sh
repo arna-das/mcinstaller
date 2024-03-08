@@ -23,9 +23,8 @@ read -p " (0-2): " input
 
 case $input in
     0)
-    cd mcserver/plugins
+    cd plugins
     wget https://hangarcdn.papermc.io/plugins/ViaVersion/ViaBackwards/versions/4.9.2/PAPER/ViaBackwards-4.9.2.jar
-    cd ..
     cd ..
     echo "eula=true" > eula.txt
     ./home.sh
