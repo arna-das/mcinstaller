@@ -18,7 +18,7 @@ echo "#################################"
 echo ""
 echo -e "\n>enter the dwonload url below "
 read downloadurl
-cd mcserver/plugins
+cd plugins
 chmod +x *
 wget ${downloadurl}
 cd ..
