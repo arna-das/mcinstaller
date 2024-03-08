@@ -12,7 +12,7 @@ echo ""
 echo ""
 echo "#################################"
 echo "#"                             
-echo "#"  do you want via-version?         
+echo "#"  do you want via-backward?         
 echo "#"                             
 echo "#################################"
 echo ""
