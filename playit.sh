@@ -27,7 +27,6 @@ case $input in
     cd plugins
     wget https://github.com/playit-cloud/playit-minecraft-plugin/releases/latest/download/playit-minecraft-plugin.jar
     cd ..
-    cd ..
     ./viaversion.sh
 
     ;;
@@ -35,7 +34,6 @@ case $input in
     1)
     mkdir plugins
     cd plugins
-    cd ..
     cd ..
     ./viaversion.sh
      
