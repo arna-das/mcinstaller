@@ -26,6 +26,7 @@ case $input in
     cd mcserver/plugins
     wget https://hangarcdn.papermc.io/plugins/ViaVersion/ViaBackwards/versions/4.9.2/PAPER/ViaBackwards-4.9.2.jar
     cd ..
+    echo "eula=true" > eula.txt
     cd ..
     ./home.sh
     rm test.sh
@@ -40,6 +41,9 @@ case $input in
     ;;
 
     1)
+    cd mcserver
+    echo "eula=true" > eula.txt
+    cd ..
     ./home.sh
     rm test.sh
     rm start.sh
