@@ -1,0 +1,36 @@
+#!/bin/sh
+clear
+echo "################################################################################"
+echo "#"                                                                
+echo "#                                 Not_arnadas"                         
+echo "#"                                                                      
+echo "#                         Copyright (C) 2023 - 2024"                 
+echo "#"                                                                      
+echo "#"                                                                    
+echo "################################################################################"
+echo ""
+echo ""
+echo "#################################"
+echo "#"                             
+echo "#"  do you want to continue?        
+echo "#"                             
+echo "#################################"
+echo ""
+echo ""
+echo "* [0] yes"
+echo "* [1] no"
+read -p " (0-1): " input
+
+case $input in
+    0)
+    wget 
+    unzip 
+    cd mcserver
+    chmod +x *
+    bash start.sh
+    ;;
+
+    1)
+    echo "thx for using"
+     
+esac
