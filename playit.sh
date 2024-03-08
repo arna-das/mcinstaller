@@ -23,7 +23,6 @@ read -p " (0-2): " input
 
 case $input in
     0)
-    cd mcserver
     mkdir plugins
     cd plugins
     wget https://github.com/playit-cloud/playit-minecraft-plugin/releases/latest/download/playit-minecraft-plugin.jar
@@ -34,7 +33,6 @@ case $input in
     ;;
 
     1)
-    cd mcserver
     mkdir plugins
     cd plugins
     cd ..
