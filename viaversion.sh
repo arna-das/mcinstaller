@@ -23,9 +23,8 @@ read -p " (0-2): " input
 
 case $input in
     0)
-    cd mcserver/plugins
+    cd plugins
     wget https://hangarcdn.papermc.io/plugins/ViaVersion/ViaVersion/versions/4.9.3/PAPER/ViaVersion-4.9.3.jar
-    cd ..
     cd ..
     ./viabackword.sh
 
