@@ -40,9 +40,10 @@ echo -e "\n> build number for server: "
 read BUILD_NUM
 
 
-
+cd ..
+cd mcserver
 wget https://api.papermc.io/v2/projects/paper/versions/${VERSION}/builds/${BUILD_NUM}/downloads/paper-${VERSION}-${BUILD_NUM}.jar
-
+mv paper-${VERSION}-${BUILD_NUM}.jar server.jar
 cd ..
 chmod +x *
 ./playit.sh
