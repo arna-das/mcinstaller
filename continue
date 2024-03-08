@@ -23,9 +23,8 @@ read -p " (0-1): " input
 
 case $input in
     0)
-    wget 
-    unzip 
-    cd mcserver
+    git clone https://github.com/arna-das/mcinstaller.git  
+    cd mcinstaller
     chmod +x *
     bash start.sh
     ;;
