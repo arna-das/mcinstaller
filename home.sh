@@ -34,7 +34,7 @@ case $input in
         ;;
 
     3)
-    ./viabackword
+    ./updater.sh
         ;;
 
     4)
